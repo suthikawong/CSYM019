@@ -1,0 +1,23 @@
+body {
+  margin: 8px;
+  font-family: cursive;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 8px;
+}
+
+.grid-1 {
+  background-color: lightskyblue;
+}
+
+.grid-2 {
+  background-color: yellow;
+}
+
+.grid-3 {
+  background-color: mediumaquamarine;
+}
+
+.grid-4 {
+  background-color: lightcoral;
+}

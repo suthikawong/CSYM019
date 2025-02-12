@@ -1,0 +1,45 @@
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  height: 100%;
+}
+
+header {
+  padding: 20px 10px;
+  background-color: blue;
+  color: white;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 55% 45%;
+  flex-grow: 1;
+}
+
+.nav-bar {
+  background-color: yellow;
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.content {
+  background-color: darkblue;
+  color: white;
+  padding: 20px 0px;
+}
+
+.side-bar {
+  background-color: lightgreen;
+  padding: 20px 0px;
+}
+
+footer {
+  background-color: green;
+  color: white;
+}

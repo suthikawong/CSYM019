@@ -1,5 +1,7 @@
 const onClickButton = () => {
-  alert('The button was pressed')
+  var element = document.getElementsByTagName('body')
+  element[0].style.backgroundImage = 'none'
+  element[0].style.backgroundColor = 'blue'
 }
 
 const onLoad = () => {

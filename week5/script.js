@@ -1,6 +1,7 @@
 const onClickButton = () => {
   var element = document.getElementById('circle')
-  element.style.opacity = 1
+  var circleOpacity = parseFloat(element.style.opacity)
+  element.style.opacity = circleOpacity - 0.1
 }
 
 const onLoad = () => {

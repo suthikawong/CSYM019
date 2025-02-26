@@ -1,10 +1,6 @@
 const onClickButton = () => {
-  // var element = document.getElementsByTagName('body')
-  // element[0].style.backgroundImage = 'none'
-  // element[0].style.backgroundColor = 'blue'
-
   var element = document.getElementById('circle')
-  element.style.backgroundColor = 'blue'
+  element.style.opacity = 0.5
 }
 
 const onLoad = () => {
